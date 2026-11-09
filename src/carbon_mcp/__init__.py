@@ -1,0 +1,1 @@
+"""Embodied-carbon MCP server."""

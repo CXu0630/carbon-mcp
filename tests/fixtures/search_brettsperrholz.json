@@ -1,0 +1,42 @@
+{
+ "startIndex": 0,
+ "pageSize": 25,
+ "totalCount": 2,
+ "data": [
+  {
+   "uuid": "e0a9e1c6-4dec-41b0-b9c1-c9e05010bc68",
+   "name": "binderholz CLT BBS",
+   "type": "EPD",
+   "subType": "average dataset",
+   "geo": "DE",
+   "refYear": 2019,
+   "validUntil": 2024,
+   "classific": "Holz / Vollholz / Brettschichtholzplatte",
+   "compliance": [
+    {
+     "name": "DIN EN 15804"
+    },
+    {
+     "name": "ISO 14025"
+    }
+   ]
+  },
+  {
+   "uuid": "8c4eb262-9ae6-4ace-8f3d-0b06f2007f3e",
+   "name": "Cross laminated timber (German average)",
+   "type": "EPD",
+   "subType": "representative dataset",
+   "geo": "DE",
+   "refYear": 2023,
+   "validUntil": 2028,
+   "compliance": [
+    {
+     "name": "EN 15804+A2"
+    },
+    {
+     "name": "EN 16485"
+    }
+   ]
+  }
+ ]
+}

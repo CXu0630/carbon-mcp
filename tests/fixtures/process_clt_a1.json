@@ -1,0 +1,102 @@
+{
+ "processInformation": {
+  "dataSetInformation": {
+   "UUID": "e0a9e1c6-4dec-41b0-b9c1-c9e05010bc68",
+   "name": {
+    "baseName": [
+     {
+      "lang": "en",
+      "value": "binderholz CLT BBS"
+     }
+    ]
+   }
+  },
+  "quantitativeReference": {
+   "referenceToReferenceFlow": [
+    0
+   ]
+  }
+ },
+ "exchanges": {
+  "exchange": [
+   {
+    "dataSetInternalID": 0,
+    "referenceFlow": true,
+    "meanAmount": 1.0,
+    "resultingflowAmount": 1.0,
+    "flowProperties": [
+     {
+      "name": [
+       {
+        "lang": "en",
+        "value": "Volume"
+       }
+      ],
+      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66",
+      "referenceFlowProperty": true,
+      "meanValue": 1.0,
+      "referenceUnit": "m3"
+     }
+    ],
+    "materialProperties": [
+     {
+      "name": "gross density",
+      "value": "470.88",
+      "unit": "kg/m^3"
+     },
+     {
+      "name": "layer thickness",
+      "value": "0.129",
+      "unit": "m"
+     },
+     {
+      "name": "conversion factor to 1 kg",
+      "value": "470.88",
+      "unit": "-"
+     }
+    ]
+   }
+  ]
+ },
+ "LCIAResults": {
+  "LCIAResult": [
+   {
+    "referenceToLCIAMethodDataSet": {
+     "refObjectId": "77e416eb-a363-4258-a04e-171d843a6460",
+     "shortDescription": [
+      {
+       "lang": "en",
+       "value": "Global warming potential (GWP)"
+      }
+     ]
+    },
+    "other": {
+     "anies": [
+      {
+       "value": {
+        "shortDescription": [
+         {
+          "lang": "de",
+          "value": "kg CO_(2)-\u00c4qv."
+         }
+        ]
+       }
+      },
+      {
+       "module": "A1",
+       "value": "-683.431660933163"
+      },
+      {
+       "module": "A2",
+       "value": "7.56440802275419"
+      },
+      {
+       "module": "A3",
+       "value": "18.3894269460135"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

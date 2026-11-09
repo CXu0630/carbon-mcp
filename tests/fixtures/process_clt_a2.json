@@ -1,0 +1,225 @@
+{
+ "processInformation": {
+  "dataSetInformation": {
+   "UUID": "8c4eb262-9ae6-4ace-8f3d-0b06f2007f3e",
+   "name": {
+    "baseName": [
+     {
+      "lang": "de",
+      "value": "Brettsperrholz (Durchschnitt DE)"
+     },
+     {
+      "lang": "en",
+      "value": "Cross laminated timber (German average)"
+     }
+    ]
+   }
+  },
+  "quantitativeReference": {
+   "referenceToReferenceFlow": [
+    0
+   ]
+  }
+ },
+ "exchanges": {
+  "exchange": [
+   {
+    "dataSetInternalID": 0,
+    "referenceFlow": true,
+    "meanAmount": 1.0,
+    "resultingflowAmount": 1.0,
+    "flowProperties": [
+     {
+      "name": [
+       {
+        "lang": "en",
+        "value": "Mass"
+       }
+      ],
+      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "meanValue": 489.41
+     },
+     {
+      "name": [
+       {
+        "lang": "en",
+        "value": "Volume"
+       }
+      ],
+      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66",
+      "referenceFlowProperty": true,
+      "meanValue": 1.0,
+      "referenceUnit": "m3"
+     },
+     {
+      "name": [
+       {
+        "lang": "en",
+        "value": "Carbon content (biogenic)"
+       }
+      ],
+      "meanValue": 215.12
+     }
+    ],
+    "materialProperties": [
+     {
+      "name": "gross density",
+      "value": "489.41",
+      "unit": "kg/m^3"
+     }
+    ]
+   }
+  ]
+ },
+ "LCIAResults": {
+  "LCIAResult": [
+   {
+    "referenceToLCIAMethodDataSet": {
+     "refObjectId": "6a37f984-a4b3-458a-a20a-64418c145fa2",
+     "shortDescription": [
+      {
+       "lang": "en",
+       "value": "Global Warming Potential - total (GWP-total)"
+      }
+     ]
+    },
+    "other": {
+     "anies": [
+      {
+       "value": {
+        "shortDescription": [
+         {
+          "lang": "de",
+          "value": "kg CO_(2)-\u00c4qv."
+         }
+        ]
+       }
+      },
+      {
+       "module": "A1",
+       "value": "-731.0156953238699"
+      },
+      {
+       "module": "A2",
+       "value": "9.11908009785155"
+      },
+      {
+       "module": "A3",
+       "value": "52.281109489663635"
+      },
+      {
+       "module": "A1-A3",
+       "value": "-669.6155057363546"
+      },
+      {
+       "module": "C3",
+       "value": "790.1"
+      },
+      {
+       "module": "D",
+       "scenario": "energetisch",
+       "value": "-400.0"
+      }
+     ]
+    }
+   },
+   {
+    "referenceToLCIAMethodDataSet": {
+     "refObjectId": "5f635281-343e-44fb-83df-1971b155e6b6",
+     "shortDescription": [
+      {
+       "lang": "en",
+       "value": "Global Warming Potential - fossil fuels (GWP-fossil)"
+      }
+     ]
+    },
+    "other": {
+     "anies": [
+      {
+       "value": {
+        "shortDescription": [
+         {
+          "lang": "de",
+          "value": "kg CO_(2)-\u00c4qv."
+         }
+        ]
+       }
+      },
+      {
+       "module": "A1",
+       "value": "57.73930467613029"
+      },
+      {
+       "module": "A2",
+       "value": "9.11908009785155"
+      },
+      {
+       "module": "A3",
+       "value": "52.281109489663635"
+      },
+      {
+       "module": "A1-A3",
+       "value": "119.13949426364547"
+      }
+     ]
+    }
+   },
+   {
+    "referenceToLCIAMethodDataSet": {
+     "refObjectId": "2356e1ab-0185-4db5-86e5-16de51c7485c",
+     "shortDescription": [
+      {
+       "lang": "en",
+       "value": "Global Warming Potential - biogenic (GWP-biogenic)"
+      }
+     ]
+    },
+    "other": {
+     "anies": [
+      {
+       "value": {
+        "shortDescription": [
+         {
+          "lang": "de",
+          "value": "kg CO_(2)-\u00c4qv."
+         }
+        ]
+       }
+      },
+      {
+       "module": "A1",
+       "value": "-788.7550000000001"
+      },
+      {
+       "module": "A2",
+       "value": "0.0"
+      },
+      {
+       "module": "A3",
+       "value": "0.0"
+      },
+      {
+       "module": "A1-A3",
+       "value": "-788.7550000000001"
+      }
+     ]
+    }
+   },
+   {
+    "referenceToLCIAMethodDataSet": {
+     "refObjectId": "4331bbdb-978a-490d-8707-eeb047f01a55"
+    },
+    "other": {
+     "anies": [
+      {
+       "module": "A1"
+      },
+      {
+       "module": "A2"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}
